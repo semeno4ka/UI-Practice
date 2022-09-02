@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Forms Practice</title>
+</head>
+
+<body>
+<form >
+  <p>
+    Username:
+    <input type="text" name="username" placeholder="Type your username">
+  </p>
+  <p>
+    Password:
+    <input type="password" name="password" placeholder="Enter your password">
+  </p>
+  <p>
+    What do you think of this trip?
+  </p>
+  <textarea cols="30" rows="7" placeholder="Enter your comment"></textarea>
+
+<hr>
+
+  <p>Select your favorite food:</p>
+  <input type="radio" name="food" value="burger" checked>Burger
+  <input type="radio" name="food" value="kebab" disabled>Kebab
+  <input type="radio" name="food" value="salad">Salad
+  <br>
+<p>Pick a date:<input type="date"></p>
+  <p>Please upload your SSN: <input type="file"></p>
+  <br>
+  <p>Please, select your favorite course(s):</p>
+  <label for="j">
+    <input type="checkbox" name="course" value="java" id="j">Java
+  </label>
+
+  <input type="checkbox" name="course" value="DS">Data Structures
+  <input type="checkbox" name="course" value="UI">User Interface
+  <input type="checkbox" name="course" value="SS">Soft Skills
+
+<p>Please, select the course:
+  <select name="course">
+    <option value="" disabled selected>Select a course</option>
+    <option value="jv">Java Developer</option>
+    <option value="sdet">SDET</option>
+    <option value="cs">Cyber Security</option>
+  </select>
+</p>
+</form >
+</body>
+</html>
