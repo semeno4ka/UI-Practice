@@ -3,14 +3,12 @@
 <head>
 
     <title>Forms Practice</title>
-  <style>
-
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-d
 <body>
 <form >
-  <p>Practising with inline CSS</p>
+  <h1>Welcome to my page!</h1>
+  <p style="background-color: darksalmon">Practising with inline CSS</p>
   <p>
     Username:
     <input type="text" name="username" placeholder="Type your username">
@@ -19,14 +17,14 @@ d
     Password:
     <input type="password" name="password" placeholder="Enter your password">
   </p>
-  <p>
+  <p class="class1">
     What do you think of this trip?
   </p>
   <textarea cols="30" rows="7" placeholder="Enter your comment"></textarea>
 
 <hr>
 
-  <p>Select your favorite food:</p>
+  <p class="class1">Select your favorite food:</p>
   <input type="radio" name="food" value="burger" checked>Burger
   <input type="radio" name="food" value="kebab" disabled>Kebab
   <input type="radio" name="food" value="salad">Salad
@@ -34,7 +32,7 @@ d
 <p>Pick a date:<input type="date"></p>
   <p>Please upload your SSN: <input type="file"></p>
   <br>
-  <p>Please, select your favorite course(s):</p>
+  <p class="class1">Please, select your favorite course(s):</p>
   <label for="j">
     <input type="checkbox" name="course" value="java" id="j">Java
   </label>
@@ -52,7 +50,7 @@ d
   </select>
   <br>
   <br>
-  <input type="submit" value="Sign Up" id="signup">
+  <input class="btn1" type="submit" value="Sign Up" id="signup">
 
 </p>
 </form >

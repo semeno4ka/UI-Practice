@@ -1,8 +1,31 @@
 body{
-    background-color: #7ebfd5;
+    background-color: #1C3879;
 }
 p{
-    background-color: #c7c6c6;
+    background-color: #607EAA;
     font-size: 14px;
     font-family: "Comic Sans MS";
+}
+
+.class1{
+    background-color: #EAE3D2;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: #1C3879;
+}
+
+/*#signup{
+    background-color: coral;
+}*/
+.btn1{
+    background-color: darkolivegreen;
+    font-size: 20px;
+}
+.btn1{
+    background-color: darkolivegreen;
+    font-size: 20px;
+}
+.btn1:hover {
+    background-color: #f00831;
+    font-size: 20px;
 }
